@@ -205,21 +205,21 @@ trakt_prime_shows_list_data = {
 
 
 # Trakt List slugs
-trakt_netflix_movies_list_slug = "top-US-netflix-movies"
-trakt_netflix_shows_list_slug = "top-US-netflix-shows"
-trakt_netflix_kids_movies_list_slug = "top-US-netflix-kids-movies"
-trakt_netflix_kids_shows_list_slug = "top-US-netflix-kids-shows"
+trakt_netflix_movies_list_slug = "top-us-netflix-movies"
+trakt_netflix_shows_list_slug = "top-us-netflix-shows"
+trakt_netflix_kids_movies_list_slug = "top-us-netflix-kids-movies"
+trakt_netflix_kids_shows_list_slug = "top-us-netflix-kids-shows"
 
-trakt_hbo_movies_list_slug = "top-US-hbo-movies"
-trakt_hbo_shows_list_slug = "top-US-hbo-shows"
+trakt_hbo_movies_list_slug = "top-us-hbo-movies"
+trakt_hbo_shows_list_slug = "top-us-hbo-shows"
 
-trakt_disney_list_slug = "top-US-disney"
+trakt_disney_list_slug = "top-us-disney"
 
-trakt_apple_movies_list_slug = "top-US-apple-tv-movies"
-trakt_apple_shows_list_slug = "top-US-apple-tv-shows"
+trakt_apple_movies_list_slug = "top-us-apple-tv-movies"
+trakt_apple_shows_list_slug = "top-us-apple-tv-shows"
 
-trakt_prime_movies_list_slug = "top-US-amazon-prime-movies"
-trakt_prime_shows_list_slug = "top-US-amazon-prime-shows"
+trakt_prime_movies_list_slug = "top-us-amazon-prime-movies"
+trakt_prime_shows_list_slug = "top-us-amazon-prime-shows"
 
 # ============================
 # HELPER METHODS
