@@ -41,12 +41,12 @@ class Config:
 
         # URLs
         self.urls = {
-            "netflix": "https://flixpatrol.com/top10/netflix/portugal/",
-            "netflix_kids": f"https://flixpatrol.com/top10/netflix/portugal/{self.yesterday_date}/",
-            "hbo": "https://flixpatrol.com/top10/hbo-max/portugal/",
-            "disney": "https://flixpatrol.com/top10/disney/portugal/",
-            "apple": "https://flixpatrol.com/top10/apple-tv/portugal/",
-            "prime": "https://flixpatrol.com/top10/amazon-prime/portugal/",
+            "netflix": "https://flixpatrol.com/top10/netflix/united-states/",
+            "netflix_kids": f"https://flixpatrol.com/top10/netflix/united-states/{self.yesterday_date}/",
+            "hbo": "https://flixpatrol.com/top10/hbo-max/united-states/",
+            "disney": "https://flixpatrol.com/top10/disney/united-states/",
+            "apple": "https://flixpatrol.com/top10/apple-tv/united-states/",
+            "prime": "https://flixpatrol.com/top10/amazon-prime/united-states/",
         }
 
         # Section names (used by all services: Netflix, HBO, Apple, Prime, Disney)
@@ -123,103 +123,103 @@ top_overrall_section = config.sections["overall"]
 
 # Netflix
 trakt_netflix_movies_list_data = {
-    "name": "Top Portugal Netflix Movies",
-    "description": "List that contains the top 10 movies on Netflix Portugal right now, updated daily",
+    "name": "Top US Netflix Movies",
+    "description": "List that contains the top 10 movies on Netflix US right now, updated daily",
     "privacy": "public",
     "display_numbers": True,
 }
 
 trakt_netflix_shows_list_data = {
-    "name": "Top Portugal Netflix Shows",
-    "description": "List that contains the top 10 TV shows on Netflix Portugal right now, updated daily",
+    "name": "Top US Netflix Shows",
+    "description": "List that contains the top 10 TV shows on Netflix US right now, updated daily",
     "privacy": "public",
     "display_numbers": True,
 }
 
 trakt_netflix_kids_movies_list_data = {
-    "name": "Top Portugal Netflix Kids Movies",
-    "description": "List that contains the top 10 kids movies on Netflix Portugal right now, updated daily",
+    "name": "Top US Netflix Kids Movies",
+    "description": "List that contains the top 10 kids movies on Netflix US right now, updated daily",
     "privacy": "public",
     "display_numbers": True,
 }
 
 trakt_netflix_kids_shows_list_data = {
-    "name": "Top Portugal Netflix Kids Shows",
-    "description": "List that contains the top 10 kids TV shows on Netflix Portugal right now, updated daily",
+    "name": "Top US Netflix Kids Shows",
+    "description": "List that contains the top 10 kids TV shows on Netflix US right now, updated daily",
     "privacy": "public",
     "display_numbers": True,
 }
 
 # HBO
 trakt_hbo_movies_list_data = {
-    "name": "Top Portugal HBO Movies",
-    "description": "List that contains the top 10 movies on HBO Portugal right now, updated daily",
+    "name": "Top US HBO Movies",
+    "description": "List that contains the top 10 movies on HBO US right now, updated daily",
     "privacy": "public",
     "display_numbers": True,
 }
 
 trakt_hbo_shows_list_data = {
-    "name": "Top Portugal HBO Shows",
-    "description": "List that contains the top 10 TV shows on HBO Portugal right now, updated daily",
+    "name": "Top US HBO Shows",
+    "description": "List that contains the top 10 TV shows on HBO US right now, updated daily",
     "privacy": "public",
     "display_numbers": True,
 }
 
 # Disney+
 trakt_disney_top_list_data = {
-    "name": "Top Portugal Disney+",
-    "description": "List that contains the top movies and shows on Disney+ Portugal right now, updated daily",
+    "name": "Top US Disney+",
+    "description": "List that contains the top movies and shows on Disney+ US right now, updated daily",
     "privacy": "public",
     "display_numbers": True,
 }
 
 # Apple TV
 trakt_apple_movies_list_data = {
-    "name": "Top Portugal Apple TV Movies",
-    "description": "List that contains the top 10 movies on Apple TV Portugal right now, updated daily",
+    "name": "Top US Apple TV Movies",
+    "description": "List that contains the top 10 movies on Apple TV US right now, updated daily",
     "privacy": "public",
     "display_numbers": True,
 }
 
 trakt_apple_shows_list_data = {
-    "name": "Top Portugal Apple TV Shows",
-    "description": "List that contains the top 10 TV shows on Apple TV Portugal right now, updated daily",
+    "name": "Top US Apple TV Shows",
+    "description": "List that contains the top 10 TV shows on Apple TV US right now, updated daily",
     "privacy": "public",
     "display_numbers": True,
 }
 
 # Amazon Prime
 trakt_prime_movies_list_data = {
-    "name": "Top Portugal Amazon Prime Movies",
-    "description": "List that contains the top 10 movies on Amazon Prime Video Portugal right now, updated daily",
+    "name": "Top US Amazon Prime Movies",
+    "description": "List that contains the top 10 movies on Amazon Prime Video US right now, updated daily",
     "privacy": "public",
     "display_numbers": True,
 }
 
 trakt_prime_shows_list_data = {
-    "name": "Top Portugal Amazon Prime Shows",
-    "description": "List that contains the top 10 TV shows on Amazon Prime Video Portugal right now, updated daily",
+    "name": "Top US Amazon Prime Shows",
+    "description": "List that contains the top 10 TV shows on Amazon Prime Video US right now, updated daily",
     "privacy": "public",
     "display_numbers": True,
 }
 
 
 # Trakt List slugs
-trakt_netflix_movies_list_slug = "top-portugal-netflix-movies"
-trakt_netflix_shows_list_slug = "top-portugal-netflix-shows"
-trakt_netflix_kids_movies_list_slug = "top-portugal-netflix-kids-movies"
-trakt_netflix_kids_shows_list_slug = "top-portugal-netflix-kids-shows"
+trakt_netflix_movies_list_slug = "top-US-netflix-movies"
+trakt_netflix_shows_list_slug = "top-US-netflix-shows"
+trakt_netflix_kids_movies_list_slug = "top-US-netflix-kids-movies"
+trakt_netflix_kids_shows_list_slug = "top-US-netflix-kids-shows"
 
-trakt_hbo_movies_list_slug = "top-portugal-hbo-movies"
-trakt_hbo_shows_list_slug = "top-portugal-hbo-shows"
+trakt_hbo_movies_list_slug = "top-US-hbo-movies"
+trakt_hbo_shows_list_slug = "top-US-hbo-shows"
 
-trakt_disney_list_slug = "top-portugal-disney"
+trakt_disney_list_slug = "top-US-disney"
 
-trakt_apple_movies_list_slug = "top-portugal-apple-tv-movies"
-trakt_apple_shows_list_slug = "top-portugal-apple-tv-shows"
+trakt_apple_movies_list_slug = "top-US-apple-tv-movies"
+trakt_apple_shows_list_slug = "top-US-apple-tv-shows"
 
-trakt_prime_movies_list_slug = "top-portugal-amazon-prime-movies"
-trakt_prime_shows_list_slug = "top-portugal-amazon-prime-shows"
+trakt_prime_movies_list_slug = "top-US-amazon-prime-movies"
+trakt_prime_shows_list_slug = "top-US-amazon-prime-shows"
 
 # ============================
 # HELPER METHODS
@@ -944,15 +944,15 @@ class StreamingServiceTracker:
         """Initialize Trakt list data configurations."""
         # Netflix lists
         self.netflix_movies_list_data = {
-            "name": "Top Portugal Netflix Movies",
-            "description": "List that contains the top 10 movies on Netflix Portugal right now, updated daily",
+            "name": "Top US Netflix Movies",
+            "description": "List that contains the top 10 movies on Netflix US right now, updated daily",
             "privacy": "public",
             "display_numbers": True,
         }
 
         self.netflix_shows_list_data = {
-            "name": "Top Portugal Netflix Shows",
-            "description": "List that contains the top 10 TV shows on Netflix Portugal right now, updated daily",
+            "name": "Top US Netflix Shows",
+            "description": "List that contains the top 10 TV shows on Netflix US right now, updated daily",
             "privacy": "public",
             "display_numbers": True,
         }
